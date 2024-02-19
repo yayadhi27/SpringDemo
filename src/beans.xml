@@ -6,13 +6,18 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd">
-<bean id ="calculator" class="com.jaya.demo.User2"  >    
-<property name="calc" ref="cB"></property>  
+
+<bean id ="u2" class="com.jaya.demo.User"  >    
+<property name="calc" ref="cA"></property>  
 </bean>
+
 <bean id ="cA" class="com.jaya.demo.CalcA">  
+
 </bean>
  
-	<bean id ="cB" class="com.jaya.demo.CalcB">  
+<bean id ="cB" class="com.jaya.demo.CalcB">  
+	
 </bean>
- 
+
 </beans>
+

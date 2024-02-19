@@ -10,7 +10,7 @@ public class Testuser {
 	public static void main(String args[]) {
 		
 		ApplicationContext context =new ClassPathXmlApplicationContext("beans.xml");
-		User u =(User)context.getBean("u1");
+		User u =(User)context.getBean("u2");
 		
 		u.invokeAdd(10,20);
 		
